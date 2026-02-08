@@ -17,7 +17,7 @@ var Yn=a=>{throw TypeError(a)};var Rs=(a,t,e)=>t.has(a)||Yn("Cannot "+e);var le=
           <div class="brand">
             <span class="brand-mark" aria-hidden="true"></span>
             <div>
-              <h1>DWMT Whiteboard</h1>
+              <h1>Dawn Webber Maths Tutoring</h1>
               <p>Sign in to sync strokes across every device.</p>
             </div>
           </div>
