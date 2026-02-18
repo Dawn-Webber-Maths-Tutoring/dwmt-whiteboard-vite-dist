@@ -22,7 +22,7 @@ self.addEventListener("install", (event) => {
         console.warn("Failed to cache some static assets:", err);
       }
       await self.skipWaiting();
-    })()
+    })(),
   );
 });
 
@@ -40,10 +40,10 @@ self.addEventListener("activate", (event) => {
           ) {
             return caches.delete(name);
           }
-        })
+        }),
       );
       await self.clients.claim();
-    })()
+    })(),
   );
 });
 
@@ -78,6 +78,11 @@ self.addEventListener("fetch", (event) => {
 });
 
 async function handleStaticRequest(request) {
+  const url = new URL(request.url);
+  if (url.protocol !== "http:" && url.protocol !== "https:") {
+    return fetch(request);
+  }
+
   const cache = await caches.open(STATIC_CACHE);
   const cached = await cache.match(request);
 
@@ -149,10 +154,13 @@ async function handleApiRequest(request) {
     if (cached) {
       return cached;
     }
-    return new Response(JSON.stringify({ offline: true, error: "Network unavailable" }), {
-      status: 503,
-      headers: { "Content-Type": "application/json" },
-    });
+    return new Response(
+      JSON.stringify({ offline: true, error: "Network unavailable" }),
+      {
+        status: 503,
+        headers: { "Content-Type": "application/json" },
+      },
+    );
   }
 }
 
