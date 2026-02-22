@@ -1,16 +1,10 @@
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v2";
 const STATIC_CACHE = `dwmt-static-${CACHE_VERSION}`;
 const PDF_CACHE = `dwmt-pdf-${CACHE_VERSION}`;
 const API_CACHE = `dwmt-api-${CACHE_VERSION}`;
 const MAX_PDF_CACHE_SIZE = 50;
 
-const STATIC_ASSETS = [
-  "/",
-  "/index.html",
-  "/dm.svg",
-  "/tutor_avatar.png",
-  "/student_avatar.png",
-];
+const STATIC_ASSETS = ["/", "/index.html", "/dm.svg", "/default_avatar.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
