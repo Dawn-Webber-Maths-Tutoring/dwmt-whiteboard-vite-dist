@@ -4,7 +4,18 @@ const PDF_CACHE = `dwmt-pdf-${CACHE_VERSION}`;
 const API_CACHE = `dwmt-api-${CACHE_VERSION}`;
 const MAX_PDF_CACHE_SIZE = 50;
 
-const STATIC_ASSETS = ["/", "/index.html", "/dm.svg", "/default_avatar.png"];
+const STATIC_ASSETS = [
+  "/",
+  "/index.html",
+  "/manifest.webmanifest",
+  "/manifest-dev.webmanifest",
+  "/manifest-staging.webmanifest",
+  "/manifest-prod.webmanifest",
+  "/dm.svg",
+  "/pwa-192.png",
+  "/pwa-512.png",
+  "/default_avatar.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
