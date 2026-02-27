@@ -1,4 +1,4 @@
-import{a as we,g as Ce,b as Pe,f as Ee,A as Ve,p as qe,h as Be,q as ke,s as Le,t as Me,c as xe,v as Ne,w as De,x as Fe}from"./apiClient-C3QWeFq6.js";import{T as Te}from"./trash-2-CsSxxz_L.js";const Ie=5*1024*1024,Ue=()=>`
+import{a as we,g as Ce,b as Pe,f as Ee,A as Ve,p as qe,h as Be,q as ke,s as Le,t as Me,c as xe,v as Ne,w as De,x as Fe}from"./apiClient-C9n1NZB0.js";import{T as Te}from"./trash-2-InwjSfrm.js";const Ie=5*1024*1024,Ue=()=>`
   <div class="app profile-page">
     <div id="profileAppBarContainer"></div>
     <main class="profile-layout">
