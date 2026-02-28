@@ -1,4 +1,4 @@
-import{a as $e,g as je,b as Oe,f as ze,A as Ge,q as He,h as _e,s as We,t as Je,v as Ke,w as Ye,c as Xe,x as Ze,y as Qe}from"./apiClient-S4RHK2gN.js";import{C as et}from"./js.cookie-CqCNl8jZ.js";import{T as tt}from"./trash-2--yGiF-Zo.js";const at=5*1024*1024,rt="af-south-1_KafMP5va9",it="3d5h2593ojr4l2g3hduj2f17lp",Ve=new et({UserPoolId:rt,ClientId:it}),ot=()=>`
+import{a as $e,g as je,b as Oe,f as ze,A as Ge,q as He,h as _e,s as We,t as Je,v as Ke,w as Ye,c as Xe,x as Ze,y as Qe}from"./apiClient-BZsKvAE9.js";import{C as et}from"./js.cookie-CqCNl8jZ.js";import{T as tt}from"./trash-2-DTnavHwM.js";const at=5*1024*1024,rt="af-south-1_KafMP5va9",it="3d5h2593ojr4l2g3hduj2f17lp",Ve=new et({UserPoolId:rt,ClientId:it}),ot=()=>`
   <div class="app profile-page">
     <div id="profileAppBarContainer"></div>
     <main class="profile-layout">
