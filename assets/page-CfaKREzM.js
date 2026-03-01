@@ -1,4 +1,4 @@
-import{c as Et,g as Ct,a as At,d as Vt,b as Bt,A as kt,p as qt,f as Mt,s as Lt,q as Tt,t as Nt,v as xt,w as Ut,x as It}from"./apiClient-Cj86BF1t.js";import{c as Ft}from"./lucide-s4dRgpWl.js";import{C as Dt}from"./js.cookie-CqCNl8jZ.js";import{T as Rt}from"./trash-2-DVPlYQui.js";const $t=5*1024*1024,Ot="af-south-1_bIOvLpsST",Gt="3h1hjhsq24cm86n83oklrkf6be",ut=new Dt({UserPoolId:Ot,ClientId:Gt}),jt=()=>`
+import{c as Et,g as Ct,a as At,d as Vt,b as Bt,A as kt,p as qt,f as Mt,s as Lt,q as Tt,t as Nt,v as xt,w as Ut,x as It}from"./apiClient-DnfO2H3x.js";import{c as Ft}from"./lucide-s4dRgpWl.js";import{C as Dt}from"./js.cookie-CqCNl8jZ.js";import{T as Rt}from"./trash-2-DVPlYQui.js";const $t=5*1024*1024,Ot="af-south-1_bIOvLpsST",Gt="3h1hjhsq24cm86n83oklrkf6be",ut=new Dt({UserPoolId:Ot,ClientId:Gt}),jt=()=>`
   <div class="app profile-page">
     <div id="profileAppBarContainer"></div>
     <main class="profile-layout">
