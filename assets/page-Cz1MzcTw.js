@@ -1,4 +1,4 @@
-import{d as pe,a as ge,g as ve,b as he,f as fe,c as be,y as ye,z as Ce,B as Me,C as Ee,D as Se,E as Ae}from"./apiClient-CVlxnLjO.js";const we=()=>`
+import{d as pe,a as ge,g as ve,b as he,f as fe,c as be,y as ye,z as Ce,B as Me,C as Ee,D as Se,E as Ae}from"./apiClient-BpuZGKpi.js";const we=()=>`
   <div class="app user-management-page">
     <div id="userManagementAppBarContainer"></div>
     <main class="user-management-layout">
