@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v2";
+const CACHE_VERSION = "v3";
 const STATIC_CACHE = `dwmt-static-${CACHE_VERSION}`;
 const PDF_CACHE = `dwmt-pdf-${CACHE_VERSION}`;
 const API_CACHE = `dwmt-api-${CACHE_VERSION}`;
@@ -73,14 +73,42 @@ self.addEventListener("fetch", (event) => {
   if (
     request.destination === "document" ||
     request.destination === "script" ||
-    request.destination === "style" ||
-    request.destination === "image" ||
-    request.destination === "font"
+    request.destination === "style"
   ) {
+    event.respondWith(handleAppShellRequest(request));
+    return;
+  }
+
+  if (request.destination === "image" || request.destination === "font") {
     event.respondWith(handleStaticRequest(request));
     return;
   }
 });
+
+async function handleAppShellRequest(request) {
+  const url = new URL(request.url);
+  if (url.protocol !== "http:" && url.protocol !== "https:") {
+    return fetch(request);
+  }
+
+  const cache = await caches.open(STATIC_CACHE);
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      cache.put(request, response.clone());
+    }
+    return response;
+  } catch (err) {
+    const cached = await cache.match(request);
+    if (cached) {
+      return cached;
+    }
+    return new Response("Offline", {
+      status: 503,
+      statusText: "Service Unavailable",
+    });
+  }
+}
 
 async function handleStaticRequest(request) {
   const url = new URL(request.url);
