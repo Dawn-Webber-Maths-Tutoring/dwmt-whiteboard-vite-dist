@@ -1,4 +1,4 @@
-import{g as U,c as N,a as A,d as P,b as H,i as G,B as O,A as q,C as D,D as $,E as z,F as V,G as _}from"./UserMenu-BbIdmYD6.js";import{C as J}from"./js.cookie-Co-gs8up.js";import"./_commonjsHelpers-DaWZu8wl.js";const K="af-south-1_bIOvLpsST",Q="3h1hjhsq24cm86n83oklrkf6be",j=new J({UserPoolId:K,ClientId:Q}),W=()=>`
+import{g as U,c as N,a as A,d as P,b as H,i as G,B as O,A as q,C as D,D as $,E as z,F as V,G as _}from"./UserMenu-DNxdjeeO.js";import{C as J}from"./js.cookie-Co-gs8up.js";import"./_commonjsHelpers-DaWZu8wl.js";const K="af-south-1_bIOvLpsST",Q="3h1hjhsq24cm86n83oklrkf6be",j=new J({UserPoolId:K,ClientId:Q}),W=()=>`
   <div class="app mailbox-page">
     <div id="mailboxAppBarContainer"></div>
     <main class="mailbox-layout">
