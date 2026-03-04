@@ -1,4 +1,4 @@
-import{c as bt,g as wt,a as Pt,d as St,b as Ct,i as Et,A as At,q as Vt,s as Bt,t as qt,v as kt,w as Mt,x as Tt,y as Lt,z as Nt}from"./UserMenu-DNxdjeeO.js";import{c as Ut}from"./lucide-s4dRgpWl.js";import{C as xt}from"./js.cookie-Co-gs8up.js";import{T as Ft}from"./trash-2-DVPlYQui.js";import"./_commonjsHelpers-DaWZu8wl.js";const Dt=5*1024*1024,It="af-south-1_bIOvLpsST",Rt="3h1hjhsq24cm86n83oklrkf6be",lt=new xt({UserPoolId:It,ClientId:Rt}),$t=()=>`
+import{c as bt,g as wt,a as Pt,d as St,b as Ct,i as Et,A as At,q as Vt,s as Bt,t as qt,v as kt,w as Mt,x as Tt,y as Lt,z as Nt}from"./UserMenu-BI7FOczu.js";import{c as Ut}from"./lucide-s4dRgpWl.js";import{C as xt}from"./js.cookie-Co-gs8up.js";import{T as Ft}from"./trash-2-DVPlYQui.js";import"./_commonjsHelpers-DaWZu8wl.js";const Dt=5*1024*1024,It="af-south-1_bIOvLpsST",Rt="3h1hjhsq24cm86n83oklrkf6be",lt=new xt({UserPoolId:It,ClientId:Rt}),$t=()=>`
   <div class="app profile-page">
     <div id="profileAppBarContainer"></div>
     <main class="profile-layout">
