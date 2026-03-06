@@ -1,4 +1,4 @@
-import{o as ce,p as de,b as me,m as ue,e as be,j as xe,i as te,k as pe,l as fe,M as ge,N as he,A as G,O as ve,P as Se,C as ye,Q as we,R as Ce,S as Me,T as Be,U as Ee,V as Ie,W as ke}from"./UserMenu-DAv3k3-D.js";const qe="af-south-1_bIOvLpsST",Te="3h1hjhsq24cm86n83oklrkf6be",oe=new ye({UserPoolId:qe,ClientId:Te}),Le=()=>`
+import{o as ce,p as de,b as me,m as ue,e as be,j as xe,i as te,k as pe,l as fe,M as ge,N as he,A as G,O as ve,P as Se,C as ye,Q as we,R as Ce,S as Me,T as Be,U as Ee,V as Ie,W as ke}from"./UserMenu-B6-yg_IS.js";const qe="af-south-1_bIOvLpsST",Te="3h1hjhsq24cm86n83oklrkf6be",oe=new ye({UserPoolId:qe,ClientId:Te}),Le=()=>`
   <div class="app mailbox-page">
     <div id="mailboxAppBarContainer"></div>
     <main class="mailbox-layout">
@@ -35,6 +35,7 @@ import{o as ce,p as de,b as me,m as ue,e as be,j as xe,i as te,k as pe,l as fe,M
               <select id="mailboxBugStatusSelect">
                 <option value="open">Open</option>
                 <option value="in-progress">In progress</option>
+                <option value="require-clarification">Require clarification</option>
                 <option value="testing">Testing</option>
                 <option value="resolved">Resolved</option>
                 <option value="duplicate">Duplicate</option>
