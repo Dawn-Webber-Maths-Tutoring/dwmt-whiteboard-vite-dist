@@ -1,1 +1,0 @@
-import{C as u}from"./UserMenu-DD-ZacYD.js";const i="af-south-1_bIOvLpsST",l="3h1hjhsq24cm86n83oklrkf6be",o=new u({UserPoolId:i,ClientId:l}),g=async()=>new Promise((s,t)=>{const n=o?.getCurrentUser();if(!n){s(null);return}n.getSession((e,r)=>{if(e){t(e);return}s(r)})}),C=()=>{const s=o?.getCurrentUser()||null;s&&s.signOut()};export{g,C as s};
