@@ -1,4 +1,4 @@
-import{p as bt,q as yt,b as wt,m as Tt,e as St,j as Mt,i as Ct,k as At,l as It,s as Nt,a7 as $t,a8 as Lt,a9 as Et,T as Pt,aa as kt,ab as st,y as Bt,A as Ut,ac as Ft,ad as Rt,ae as qt,af as R,ag as xt}from"./UserMenu-Bn6IKRb8.js";import{a as rt,s as Dt,b as Ht}from"./dialogs-ChSClj4n.js";import{g as Kt,s as Ot}from"./authSession-DKNmksOD.js";const dt="dwmt-notes-sort",jt=()=>`
+import{p as bt,q as yt,b as wt,m as Tt,e as St,j as Mt,i as Ct,k as At,l as It,s as Nt,a7 as $t,a8 as Lt,a9 as Et,T as Pt,aa as kt,ab as st,y as Bt,A as Ut,ac as Ft,ad as Rt,ae as qt,af as R,ag as xt}from"./UserMenu-DKLQf3eT.js";import{a as rt,s as Dt,b as Ht}from"./dialogs-ChSClj4n.js";import{g as Kt,s as Ot}from"./authSession-mSKtVdW0.js";const dt="dwmt-notes-sort",jt=()=>`
   <div class="app notes-page">
     <div id="notesAppBarContainer"></div>
     <main class="notes-layout">
