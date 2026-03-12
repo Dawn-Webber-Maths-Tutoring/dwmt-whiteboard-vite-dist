@@ -1,4 +1,4 @@
-import{p as we,ag as Se,i as Ae,o as Ue,h as xe,j as Pe,k as Le,c as ke,m as Ne,b as qe,ah as Fe,ai as Ge,aj as Te,ak as Be,al as Ie,am as De,H as $e,an as He}from"./UserMenu-ClR77DQT.js";import{b as Re}from"./dialogs-ChSClj4n.js";import{P as Oe,t as _e,c as ze}from"./paperAccess-BAxWj9_K.js";const Ye="tutor",je="student",Ke=()=>`
+import{p as we,ag as Se,i as Ae,o as Ue,h as xe,j as Pe,k as Le,c as ke,m as Ne,b as qe,ah as Fe,ai as Ge,aj as Te,ak as Be,al as Ie,am as De,H as $e,an as He}from"./UserMenu-QSeoRLLs.js";import{b as Re}from"./dialogs-ChSClj4n.js";import{P as Oe,t as _e,c as ze}from"./paperAccess-BAxWj9_K.js";const Ye="tutor",je="student",Ke=()=>`
   <div class="app user-management-page">
     <div id="userManagementAppBarContainer"></div>
     <main class="user-management-layout">
