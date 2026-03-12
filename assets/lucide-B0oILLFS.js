@@ -1,0 +1,1 @@
+import{S as o}from"./UserMenu-ClR77DQT.js";const r="data-lucide",s=(e,t)=>{e.querySelectorAll(`svg[${t}]`).forEach(c=>{c.removeAttribute(t)})},n=(e,t=document)=>{o(e),s(t,e?.nameAttr??r)};export{n as c};
