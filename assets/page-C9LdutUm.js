@@ -1,4 +1,4 @@
-import{p as ve,q as Se,b as Ce,m as Ee,e as we,j as Me,i as ue,k as Be,l as Te,T as ke,U as qe,I as ie,V as Ie,W as Le,X as be,Y as Ae,Z as Re,_ as Ne,$ as Fe,a0 as Ue,a1 as je,a2 as De}from"./UserMenu-DkoGBIan.js";import{b as $e}from"./dialogs-ChSClj4n.js";import{g as Pe,s as We}from"./authSession-D55AApFz.js";const ze=()=>`
+import{p as ve,q as Se,b as Ce,m as Ee,e as we,j as Me,i as ue,k as Be,l as Te,T as ke,U as qe,I as ie,V as Ie,W as Le,X as be,Y as Ae,Z as Re,_ as Ne,$ as Fe,a0 as Ue,a1 as je,a2 as De}from"./UserMenu-LwVQTgfH.js";import{b as $e}from"./dialogs-ChSClj4n.js";import{g as Pe,s as We}from"./authSession-lEvUeiru.js";const ze=()=>`
   <div class="app mailbox-page">
     <div id="mailboxAppBarContainer"></div>
     <main class="mailbox-layout">
