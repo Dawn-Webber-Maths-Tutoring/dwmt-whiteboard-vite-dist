@@ -1,0 +1,1 @@
+import{S as r}from"./UserMenu-TEePa22a.js";const o="data-lucide",a=(e,t)=>{e.querySelectorAll(`svg[${t}]`).forEach(c=>{c.removeAttribute("data-lucide")})},n=(e,t=document)=>{r(e),a(t,e?.nameAttr??o)};export{n as c};
