@@ -1,4 +1,4 @@
-import{b as Pt,m as Ct,e as Et,s as At,k as Vt,t as Bt,j as qt,n as kt,o as Mt,I as Lt,L as Tt,M as xt,N as Nt,O as Ut,P as Ft,Q as It,c as Dt,C as Rt,R as Ot,S as $t}from"./UserMenu-BcP8nTaP.js";import{T as Gt}from"./trash-2-DfMSUeHb.js";const zt=5*1024*1024,jt="af-south-1_bIOvLpsST",_t="3h1hjhsq24cm86n83oklrkf6be",ct=new Rt({UserPoolId:jt,ClientId:_t}),Ht=()=>`
+import{b as Pt,m as Ct,e as Et,s as At,k as Vt,t as Bt,j as qt,n as kt,o as Mt,I as Lt,L as Tt,M as xt,N as Nt,O as Ut,P as Ft,Q as It,c as Dt,C as Rt,R as Ot,S as $t}from"./UserMenu-CK-dMb59.js";import{T as Gt}from"./trash-2-CHi-gf_5.js";const zt=5*1024*1024,jt="af-south-1_bIOvLpsST",_t="3h1hjhsq24cm86n83oklrkf6be",ct=new Rt({UserPoolId:jt,ClientId:_t}),Ht=()=>`
   <div class="app profile-page">
     <div id="profileAppBarContainer"></div>
     <main class="profile-layout">
