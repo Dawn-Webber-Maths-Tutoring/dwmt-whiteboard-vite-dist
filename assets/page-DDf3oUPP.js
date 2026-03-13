@@ -1,4 +1,4 @@
-import{t as me,s as he,b as ve,m as ge,e as be,j as ye,n as Ce,k as Se,o as De,B as $e,_ as we,a5 as xe,a1 as Le,a6 as qe}from"./UserMenu-DOr-AyYE.js";import{g as Ee,s as ke}from"./authSession-0i6kVoWq.js";const Q=[{value:"open",label:"Open"},{value:"in-progress",label:"In progress"},{value:"require-clarification",label:"Needs clarification"},{value:"testing",label:"Testing"},{value:"tested",label:"Tested"},{value:"resolved",label:"Resolved"},{value:"duplicate",label:"Duplicate"},{value:"wont-fix",label:"Won't fix"}],Re=()=>`
+import{t as me,s as he,b as ve,m as ge,e as be,j as ye,n as Ce,k as Se,o as De,B as $e,_ as we,a5 as xe,a1 as Le,a6 as qe}from"./UserMenu-CZaOT_D2.js";import{g as Ee,s as ke}from"./authSession-Nj2lIJ_w.js";const Q=[{value:"open",label:"Open"},{value:"in-progress",label:"In progress"},{value:"require-clarification",label:"Needs clarification"},{value:"testing",label:"Testing"},{value:"tested",label:"Tested"},{value:"resolved",label:"Resolved"},{value:"duplicate",label:"Duplicate"},{value:"wont-fix",label:"Won't fix"}],Re=()=>`
   <div class="app issues-page">
     <div id="issuesAppBarContainer"></div>
     <main class="issues-layout">
