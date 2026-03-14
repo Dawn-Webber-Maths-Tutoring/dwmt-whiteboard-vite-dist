@@ -1,0 +1,1 @@
+const n="dwmt:notes:preview:",o=e=>`${n}${e.trim()}`,c=e=>{const r=e.trim();if(!r)return null;try{const t=window.localStorage.getItem(o(r));return t&&t.trim()?t:null}catch{return null}},i=(e,r)=>{const t=e.trim();if(!(!t||!r.trim()))try{window.localStorage.setItem(o(t),r)}catch{}};export{c as r,i as s};
