@@ -31,4 +31,4 @@ const g=()=>{let e=document.querySelector("#appDialogRoot");return e||(e=documen
         placeholder="${s(o)}"
       />
     </label>
-  `,c=d({title:e,message:t,body:l,buttons:[{id:"cancel",label:a},{id:"confirm",label:i,tone:"default"}]}),r=c.querySelector("#appDialogPromptInput");return await p(c,()=>{r?.focus(),r?.select(),r?.addEventListener("keydown",u=>{u.key==="Enter"&&c.querySelector('[data-dialog-button="confirm"]')?.click()})})!=="confirm"?null:r?.value??null};export{D as a,v as b,y as s};
+  `,c=d({title:e,message:t,body:l,buttons:[{id:"cancel",label:a},{id:"confirm",label:i,tone:"default"}]}),r=c.querySelector("#appDialogPromptInput");return await p(c,()=>{r?.focus(),r?.select(),r?.addEventListener("keydown",u=>{u.key==="Enter"&&c.querySelector('[data-dialog-button="confirm"]')?.click()})})!=="confirm"?null:r?.value??null};export{v as a,D as b,y as s};
