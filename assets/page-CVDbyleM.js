@@ -1,4 +1,4 @@
-import{u as ve,t as ge,b as ye,m as be,e as Ce,k as Se,o as $e,n as De,p as we,i as xe,a0 as Le,a7 as qe,a3 as Ee,a8 as ke}from"./UserMenu-BLEs6F3Z.js";import{g as Re,s as Ie}from"./authSession-CSnU74WP.js";const pe=[{value:"open",label:"Open"},{value:"in-progress",label:"In progress"},{value:"require-clarification",label:"Needs clarification"},{value:"testing",label:"Testing"},{value:"tested",label:"Tested"},{value:"resolved",label:"Resolved"},{value:"duplicate",label:"Duplicate"},{value:"wont-fix",label:"Won't fix"}],Ae=()=>`
+import{u as ve,t as ge,b as ye,m as be,e as Ce,k as Se,o as $e,n as De,p as we,i as xe,a0 as Le,a7 as qe,a3 as Ee,a8 as ke}from"./UserMenu-DtIjcbtj.js";import{g as Re,s as Ie}from"./authSession-CiAht5G1.js";const pe=[{value:"open",label:"Open"},{value:"in-progress",label:"In progress"},{value:"require-clarification",label:"Needs clarification"},{value:"testing",label:"Testing"},{value:"tested",label:"Tested"},{value:"resolved",label:"Resolved"},{value:"duplicate",label:"Duplicate"},{value:"wont-fix",label:"Won't fix"}],Ae=()=>`
   <div class="app issues-page">
     <div id="issuesAppBarContainer"></div>
     <main class="issues-layout">
